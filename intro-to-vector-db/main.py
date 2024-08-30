@@ -9,10 +9,10 @@ from langchain import VectorDBQA, OpenAI
 import pinecone
 
 
-pinecone.init(api_key="3519a6a1-d88b-449b-8699-1b03e76f1eed", environment="gcp-starter")
+pinecone.init(api_key="", environment="gcp-starter")
 
 # ******************Remove these keys for sharing outside**************
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = ""
 
 if __name__ == "__main__":
     print("Hello VectorStore!")

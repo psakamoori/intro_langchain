@@ -11,7 +11,7 @@ load_dotenv()
 import os
 
 # ******************Remove these keys for sharing outside**************
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = ""
 
 def main():
     print("Start...")
