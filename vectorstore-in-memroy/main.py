@@ -1,7 +1,7 @@
 import os
 
 # ******************Remove these keys for sharing outside**************
-os.environ['OPENAI_API_KEY'] = "sk"
+os.environ[''] = ""
 
 from langchain.document_loaders import PyPDFLoader
 from langchain.text_splitter import CharacterTextSplitter

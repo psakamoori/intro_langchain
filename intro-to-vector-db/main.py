@@ -12,7 +12,7 @@ import pinecone
 pinecone.init(api_key="", environment="gcp-starter")
 
 # ******************Remove these keys for sharing outside**************
-os.environ['OPENAI_API_KEY'] = ""
+os.environ[''] = ""
 
 if __name__ == "__main__":
     print("Hello VectorStore!")
